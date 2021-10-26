@@ -1,0 +1,5 @@
+D:\C P S C\CPSC 481\481 a3\yyc_tickets_ticket_times\ticket times\obj\Debug\netcoreapp3.1\ticket times.csproj.AssemblyReference.cache
+D:\C P S C\CPSC 481\481 a3\yyc_tickets_ticket_times\ticket times\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\C P S C\CPSC 481\481 a3\yyc_tickets_ticket_times\ticket times\obj\Debug\netcoreapp3.1\App.g.cs
+D:\C P S C\CPSC 481\481 a3\yyc_tickets_ticket_times\ticket times\obj\Debug\netcoreapp3.1\ticket times_MarkupCompile.cache
+D:\C P S C\CPSC 481\481 a3\yyc_tickets_ticket_times\ticket times\obj\Debug\netcoreapp3.1\ticket times_MarkupCompile.lref

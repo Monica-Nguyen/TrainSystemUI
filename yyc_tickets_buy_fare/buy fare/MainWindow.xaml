@@ -1,0 +1,32 @@
+﻿<Window x:Class="buy_fare.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:buy_fare"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1920" Width="1080" FontSize="72">
+    <Grid>
+        <Label Content="Buy Fare" HorizontalAlignment="Center" Margin="0,83,0,0" VerticalAlignment="Top" Width="388" HorizontalContentAlignment="Center"/>
+        <Label Content="Calgary Transit" HorizontalAlignment="Center" Margin="0,194,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Select Age Category" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Button Content="i" Margin="515,527,515,1327" FontSize="36">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="DarkCyan"/>
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBox HorizontalAlignment="Center" Margin="0,710,0,0" Text="Child" TextWrapping="Wrap" VerticalAlignment="Top" Width="1080" TextAlignment="Center" FontSize="72" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,813,0,0" Text="Youth" TextWrapping="Wrap" VerticalAlignment="Top" Width="1080" TextAlignment="Center" FontSize="72" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,916,0,0" Text="Adult" TextWrapping="Wrap" VerticalAlignment="Top" Width="1080" TextAlignment="Center" FontSize="72" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,1019,0,0" Text="Senior" TextWrapping="Wrap" VerticalAlignment="Top" Width="1080" TextAlignment="Center" FontSize="72" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <Button Content="&lt; Back" HorizontalAlignment="Left" Margin="0,1804,0,0" VerticalAlignment="Top" Width="540" HorizontalContentAlignment="Left"/>
+        <Button Content="Continue &gt;" HorizontalAlignment="Left" Margin="540,1804,0,0" VerticalAlignment="Top" Width="540" HorizontalContentAlignment="Right"/>
+
+
+    </Grid>
+</Window>
